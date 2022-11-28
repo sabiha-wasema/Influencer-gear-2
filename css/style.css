@@ -340,3 +340,149 @@ body {
   color: white;
 }
 /* footer style end */
+
+/* media query */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+  .heading-section {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 50px 0 50px;
+    margin-bottom: 0;
+  }
+  .heading-section img {
+    width: 300px;
+    height: 280px;
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 40px;
+    margin-bottom: 0;
+  }
+  .heading-detail {
+    width: 404px;
+    height: 222px;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    margin-top: 14px;
+  }
+  .heading-section img {
+    margin-right: 0;
+  }
+  .heading-section h1 {
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+  }
+  .heading-section p {
+    margin-left: 18px;
+    margin-right: 18px;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .heading-section button {
+    width: 194px;
+    height: 44px;
+    font-size: 16px;
+    line-height: 24px;
+    /* margin-left: 107px; */
+    margin-bottom: 50px;
+  }
+  .logo-section {
+    margin-top: 200px;
+    width: 275px;
+    height: 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* margin-left: 42px;
+    margin-right: 42px; */
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .logo-section img {
+    width: 59px;
+    height: 17px;
+    margin-bottom: 0;
+  }
+
+  .product-container {
+    width: 329px;
+    height: 4504px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 130px;
+  }
+  .product-section-title {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .products {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 30px;
+    width: 329px;
+    height: 476px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .product-load {
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 215px;
+    width: 150px;
+    height: 40px;
+    margin-bottom: 50px;
+  }
+
+  .feature-section {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 3px;
+  }
+  .feature-section img {
+    width: 299px;
+    height: 188px;
+    margin-top: 0;
+  }
+  .feature-detail {
+    margin-left: 29px;
+    margin-bottom: 0;
+  }
+  .feature-detail h1 {
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+  .feature-detail p {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0 7px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .feature-detail button {
+    margin-left: 93px;
+    margin-bottom: 30px;
+  }
+  .footer-section {
+    margin-top: 0;
+  }
+}
