@@ -216,8 +216,13 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  color: rgba(224, 44, 109, 0.87);
+  color: white;
   border: none;
   background-color: white;
-  margin-left: 1100px;
+  margin-left: 1000px;
+  margin-top: 50px;
+  background-color: rgba(224, 44, 109, 0.87);
+  width: 196px;
+  height: 44px;
+  border-radius: 41px;
 }
